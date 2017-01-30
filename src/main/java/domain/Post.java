@@ -1,6 +1,7 @@
 package domain;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by emile on 30-1-2017.
@@ -42,7 +43,7 @@ public class Post {
         return "Post{" +
                 "title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                ", comments=" + comments +
+                ", comments=" + comments.toString() +
                 '}';
     }
 }

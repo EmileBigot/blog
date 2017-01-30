@@ -48,7 +48,7 @@ public class UserService {
         }
     }
 
-    public void commentOnBlog(String postTitle, String comment, String username)
+    public String commentOnBlog(String postTitle, String comment, String username)
     {
         Post postForComment = null;
         User user = null;
@@ -69,6 +69,9 @@ public class UserService {
         if(user != null && postForComment != null)
         {
             postForComment.addComment(new Comment(user, comment));
+            return postForComment.toString();
+        } else {
+            return "Something went wrong";
         }
     }
 
