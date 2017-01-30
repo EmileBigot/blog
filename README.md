@@ -1,6 +1,6 @@
--------------------------------------------------------------------------------------------
---                                      BLOG                                             --
---   Dit is een simpele blog met een simpel user interface                               --
+-------------------------------------------------------------------------------------------\n
+--                                      BLOG                                             --\n
+--   Dit is een simpele blog met een simpel user interface                               --\n
 --   Om de applicatie te starten: run de main file in de java package                    --
 --   Let op dat alle dependencies geinporteerd zijn op jou pc                            --
 --   Je kan de volgende URL's gebruiken om te testen:                                    --
